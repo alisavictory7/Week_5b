@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3em;
+    color: #d4af37;
+    /* Gold color for heading */
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    /* Add a subtle shadow */
+}
+
+body {
+    font-family: serif;
+    /* A classic, elegant font */
+    background-color: #f0f0f0;
+    /* Light background for contrast */
+}
+
+.svg-container {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto 30px; /* Center and add bottom margin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Increased shadow */
+    border: 3px solid #d4af37; /* Gold border, thicker */
+    background-color: #ece7f3;  /* Lighter purple for SVG background */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensure content doesn't overflow border-radius */
+}
+
+svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#textbox {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;  /* White background for text box */
+    border: 2px solid #d4af37; /* Gold border */
+    color: #333;      /* Darker text for better readability on white */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.highlight-text {
+    background-color: rgba(212, 175, 55, 0.2); /* Gold highlight with transparency */
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-style: italic; /* Italicize the highlighted text */
+}
