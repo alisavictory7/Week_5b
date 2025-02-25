@@ -15,6 +15,11 @@ h1 {
     /* Add a subtle shadow */
 }
 
+a {
+    font-family: 'Cormorant Garamond', serif;
+    color: purple;
+}
+
 body {
     font-family: serif;
     /* A classic, elegant font */
